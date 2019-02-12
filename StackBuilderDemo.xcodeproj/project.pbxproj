@@ -18,6 +18,8 @@
 		D6829B042211FF5B000D35B1 /* RepoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6829B032211FF5B000D35B1 /* RepoInteractor.swift */; };
 		D6829B0722120944000D35B1 /* RepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6829B0622120944000D35B1 /* RepoModel.swift */; };
 		D6829B09221209A2000D35B1 /* OwnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6829B08221209A2000D35B1 /* OwnerModel.swift */; };
+		D6A91FD82212BA8A00A4F5D7 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A91FD72212BA8A00A4F5D7 /* UITableView+Extension.swift */; };
+		D6A91FDA2212BB5F00A4F5D7 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A91FD92212BB5F00A4F5D7 /* ReusableView.swift */; };
 		D6F6504322121AED0020FD36 /* LicenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F6504222121AED0020FD36 /* LicenseModel.swift */; };
 		D6F6504922122FF20020FD36 /* RepoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F6504822122FF20020FD36 /* RepoPresenter.swift */; };
 		D6F6504C221230D80020FD36 /* RepoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F6504B221230D80020FD36 /* RepoViewController.swift */; };
@@ -65,6 +67,8 @@
 		D6829B032211FF5B000D35B1 /* RepoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoInteractor.swift; sourceTree = "<group>"; };
 		D6829B0622120944000D35B1 /* RepoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoModel.swift; sourceTree = "<group>"; };
 		D6829B08221209A2000D35B1 /* OwnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerModel.swift; sourceTree = "<group>"; };
+		D6A91FD72212BA8A00A4F5D7 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		D6A91FD92212BB5F00A4F5D7 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		D6F6504222121AED0020FD36 /* LicenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseModel.swift; sourceTree = "<group>"; };
 		D6F6504822122FF20020FD36 /* RepoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoPresenter.swift; sourceTree = "<group>"; };
 		D6F6504B221230D80020FD36 /* RepoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +147,7 @@
 		D6829AD02211FB4B000D35B1 /* StackBuilderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D6A91FD62212B9F700A4F5D7 /* Extensions */,
 				D6F6504522122FB20020FD36 /* Modules */,
 				D6829AD12211FB4B000D35B1 /* AppDelegate.swift */,
 				D6829AD52211FB4B000D35B1 /* Main.storyboard */,
@@ -188,6 +193,15 @@
 				D6F6504222121AED0020FD36 /* LicenseModel.swift */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		D6A91FD62212B9F700A4F5D7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D6A91FD92212BB5F00A4F5D7 /* ReusableView.swift */,
+				D6A91FD72212BA8A00A4F5D7 /* UITableView+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		D6F6504522122FB20020FD36 /* Modules */ = {
@@ -436,9 +450,11 @@
 				D6829ADA2211FB4B000D35B1 /* StackBuilderDemo.xcdatamodeld in Sources */,
 				D6F6504C221230D80020FD36 /* RepoViewController.swift in Sources */,
 				D6F650592212452F0020FD36 /* RepoRouter.swift in Sources */,
+				D6A91FDA2212BB5F00A4F5D7 /* ReusableView.swift in Sources */,
 				D6829B09221209A2000D35B1 /* OwnerModel.swift in Sources */,
 				D6F6504922122FF20020FD36 /* RepoPresenter.swift in Sources */,
 				D6F65056221245160020FD36 /* RepoConfigure.swift in Sources */,
+				D6A91FD82212BA8A00A4F5D7 /* UITableView+Extension.swift in Sources */,
 				D6F65053221238D80020FD36 /* LicenseViewModel.swift in Sources */,
 				D6829B0722120944000D35B1 /* RepoModel.swift in Sources */,
 				D6F6504322121AED0020FD36 /* LicenseModel.swift in Sources */,
