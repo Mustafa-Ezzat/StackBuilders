@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3B5FEDD75D6E49418872BD99 /* Pods_StackBuilderDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885FECD65BD0DA9513F7E3FC /* Pods_StackBuilderDemo.framework */; };
 		D6829AD22211FB4B000D35B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6829AD12211FB4B000D35B1 /* AppDelegate.swift */; };
-		D6829AD42211FB4B000D35B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6829AD32211FB4B000D35B1 /* ViewController.swift */; };
 		D6829AD72211FB4B000D35B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6829AD52211FB4B000D35B1 /* Main.storyboard */; };
 		D6829ADA2211FB4B000D35B1 /* StackBuilderDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6829AD82211FB4B000D35B1 /* StackBuilderDemo.xcdatamodeld */; };
 		D6829ADC2211FB4D000D35B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6829ADB2211FB4D000D35B1 /* Assets.xcassets */; };
@@ -52,7 +51,6 @@
 		C44630D38CA73D7B16529932 /* Pods-StackBuilderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackBuilderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StackBuilderDemo/Pods-StackBuilderDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D6829ACE2211FB4B000D35B1 /* StackBuilderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackBuilderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6829AD12211FB4B000D35B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6829AD32211FB4B000D35B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D6829AD62211FB4B000D35B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6829AD92211FB4B000D35B1 /* StackBuilderDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StackBuilderDemo.xcdatamodel; sourceTree = "<group>"; };
 		D6829ADB2211FB4D000D35B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -147,7 +145,6 @@
 			children = (
 				D6F6504522122FB20020FD36 /* Modules */,
 				D6829AD12211FB4B000D35B1 /* AppDelegate.swift */,
-				D6829AD32211FB4B000D35B1 /* ViewController.swift */,
 				D6829AD52211FB4B000D35B1 /* Main.storyboard */,
 				D6829ADB2211FB4D000D35B1 /* Assets.xcassets */,
 				D6829ADD2211FB4D000D35B1 /* LaunchScreen.storyboard */,
@@ -438,7 +435,6 @@
 				D6829B042211FF5B000D35B1 /* RepoInteractor.swift in Sources */,
 				D6829ADA2211FB4B000D35B1 /* StackBuilderDemo.xcdatamodeld in Sources */,
 				D6F6504C221230D80020FD36 /* RepoViewController.swift in Sources */,
-				D6829AD42211FB4B000D35B1 /* ViewController.swift in Sources */,
 				D6F650592212452F0020FD36 /* RepoRouter.swift in Sources */,
 				D6829B09221209A2000D35B1 /* OwnerModel.swift in Sources */,
 				D6F6504922122FF20020FD36 /* RepoPresenter.swift in Sources */,
